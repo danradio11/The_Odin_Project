@@ -1,0 +1,156 @@
+
+
+* {
+    border-color: rgb(212, 86, 86);
+    border-width: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9FAf8;
+    /* padding: 20px 30px; */
+
+}
+
+h2 {
+    font-size: 48px;
+    color: #f9FAf8;
+    /* padding: 20px 0px; */
+}
+
+h3 {
+    padding: 30px;
+}
+
+
+.header {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 80px;
+    
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: none;
+    margin: 20px 0px;
+    padding: 5px 25px;
+}
+
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    color: #E5E7EB;
+    display: flex;
+    /* padding: 5px 25px; */
+    gap: 20px;
+}
+
+.img1 {
+    width: 400px;
+    height: 200px;
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    
+
+}
+
+.tier1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 80px;
+    
+}
+
+.tier2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.cards  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card1 p {
+    text-align: center;
+}
+
+.card1 {
+    width: 120px;
+}
+
+.leftside {
+    width: 50%;
+}
+
+.tier1 p {
+    color: #E5E7EB;
+}
+
+.tier3 {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+    padding: 50px 0 50px 0;
+} 
+
+.tier4 {
+    margin: 50px;
+    padding: 100px;
+}
+
+.quote {
+    width: 800px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: right;
+}
+
+blockquote {
+    display: block;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+  }

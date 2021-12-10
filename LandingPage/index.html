@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
+    <div class="container">
     
     <div class="header">
         <h1>Header Logo</h1>
@@ -18,29 +21,47 @@
 
     </div>
 
-    <div class="body">
         <div class="tier1">
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
-            <img>
+            <div class="leftside">
+                <h2>This website is awesome</h2>
+                <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                <button>Sign up</button>
+            </div>
+
+            <div class="rightside">
+                <img class="img1" src="#"/>
+                
+            
+            </div>
         </div>
 
         <div class="tier2">
             <h3>Some random information</h3>
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-            <img>
-            <p>this is some subtext under an illustration or image</p>
-            <img>
-            <p>this is some subtext under an illustration or image</p>
+            <div class="cards">
+                <div class="card1">
+                    <img class="img2" src="#"/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card1">
+                    <img class="img2" src="#"/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card1">
+                    <img class="img2" src="#"/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div class="card1">
+                    <img class="img2" src="#"/>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
         </div>
 
         <div class="tier3">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p>-Thor, God of Thunder</p>
+            <div class="quote">
+                <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
+                <figcaption>&mdash; Thor, God of Thunder</figcaption>
+            </div>
         </div>
 
         <div class="tier4">
@@ -52,7 +73,7 @@
     </div>
 
     <div class="footer">
-        <p>Copyriht (c) The Odin Project 2021</p>
+        <p>Copyright (c) The Odin Project 2021</p>
     </div>
 
 </body>
