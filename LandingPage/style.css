@@ -75,7 +75,7 @@ ul {
 
 .footer {
     background-color: #1F2937;
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
     padding: 15px;
     display: flex;
@@ -101,6 +101,7 @@ ul {
     flex-direction: column;
     align-items: center;
     margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .cards  {
@@ -135,8 +136,37 @@ ul {
 } 
 
 .tier4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.enclose {
+    display: flex;
+    justify-content: space-between;
     margin: 50px;
-    padding: 100px;
+    padding: 50px;
+    background-color: #3882F6;
+    width: 700px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E5E7EB
+}
+
+.text4btn {
+    border: 2px solid #E5E7EB;
 }
 
 .quote {
